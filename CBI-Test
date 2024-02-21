@@ -1,0 +1,12 @@
+public class repeatCon {
+    // This is how a property would be defined (but it's not present
+    //   in this particular example
+    //public String myString {get; set;}
+    
+    // This is an explicitly defined getter
+    public String[] getStrings() {
+        system.debug('Test Raghav');
+        return new String[]{'ONE','TWO','THREE'};
+    }
+
+}
